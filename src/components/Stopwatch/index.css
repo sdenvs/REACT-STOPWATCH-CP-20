@@ -1,1 +1,34 @@
 /* Write CSS here */
+* {
+  font-family: 'roboto';
+  color: #333333;
+}
+.bgContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.heading {
+  font-size: 45px;
+  font-weight: bold;
+}
+.clockImage {
+  width: 25px;
+  height: 25px;
+}
+.card {
+  width: 75%;
+  border-radius: 15px;
+}
+@media (min-width: 768px) {
+  .bgContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+  .heading {
+    font-size: 60px;
+  }
+  .card {
+    width: 50%;
+  }
+}
