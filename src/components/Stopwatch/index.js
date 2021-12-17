@@ -41,9 +41,9 @@ class Stopwatch extends Component {
             />
             <h1 className="m-3">Timer</h1>
           </div>
-          <p className="heading">
+          <h1 className="heading">
             {getMinute}:{getsec}
-          </p>
+          </h1>
           <div className="d-flex">
             <button
               type="button"
